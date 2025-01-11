@@ -23,3 +23,4 @@ class BasePage:
             body=self.driver.get_screenshot_as_png(),
             name=screenshot_name,
             attachment_type=AttachmentType.PNG
+        )
