@@ -1,10 +1,11 @@
 import time
 
 import allure
-from base.base_page import BasePage
-from config.links import Links
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver import Keys
+from base.base_page import BasePage
+from config.links import Links
+
 
 
 class PersonalPage(BasePage):
